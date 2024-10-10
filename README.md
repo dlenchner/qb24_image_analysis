@@ -12,11 +12,11 @@ Developing code that can quantify, report, and compare fluorescence intensity ac
 In an effort to better understand how image analysis software functions under the hood, we plan to work from the ground up to develop code that can automate quantification of fluorescent images and report the average fluorescent intensity in a given region of interest. The ultimate goal is to apply the code to multiple images and compare average fluorescence intensity across samples or across time points. 
 
 
-# Example published figure #
+# Published figure examples #
 
 The following figures demonstrate analyses that involve quantifying fluorescence intensity in an image. Our plan is to write a Python script that can extract fluorescence intensity data from an image file. From there, we can hopefully recapitulate any of these figure types depending on how we structure the R script for plotting.
 
-![FRAP](image.png)
+[alt text](image-1.png)
 
 
 
