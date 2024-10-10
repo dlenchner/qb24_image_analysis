@@ -16,7 +16,8 @@ In an effort to better understand how image analysis software functions under th
 
 The following figures demonstrate analyses that involve quantifying fluorescence intensity in an image. Our plan is to write a Python script that can extract fluorescence intensity data from an image file. From there, we can hopefully recapitulate any of these figure types depending on how we structure the R script for plotting.
 
-[alt text](image-1.png)
+FRAP
+![alt text](https://link.springer.com/article/10.1007/s11095-013-1146-9/figures/4)
 
 
 
