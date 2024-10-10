@@ -34,25 +34,29 @@ Some possible research areas/topics/systems to keep in mind when looking for ima
 
 For quantification of fluorescence intensity, we plan to write a Python script that can be run in terminal
 
-    [Python](https://www.python.org) v3.12.3 
+[Python](https://www.python.org) v3.12.3 
 
 For plotting of the fluorescence data, we plan to write an R script
 
-    [R](https://www.r-project.org) v4.4.1
+[R](https://www.r-project.org) v4.4.1
 
 
 
 As we work through the project, we plan to compare results from our Python script with results generated from external software, such as Fiji ImageJ
 
-    [ImageJ](https://imagej.net/ij/index.html) v1.54k
+[ImageJ](https://imagej.net/ij/index.html) v1.54k
 
 
 # Proposed steps #
 
-Step 1. Read an individual image file into Python, quantify fluorescent intensity at each pixel, and report that fluorescent intensity. \n
-Step 2. Build on the work in step 1 by developing code that can isolate a region of interest, subtract background intensity, and report the average fluorescent intensity in that region.\n
-Step 3. Modify the code to analyze two or more images at a time.\n
-Step 4. Read the fluorescence intensity data from each image into R.\n
+Step 1. Read an individual image file into Python, quantify fluorescent intensity at each pixel, and report that fluorescent intensity.
+
+Step 2. Build on the work in step 1 by developing code that can isolate a region of interest, subtract background intensity, and report the average fluorescent intensity in that region.
+
+Step 3. Modify the code to analyze two or more images at a time.
+
+Step 4. Read the fluorescence intensity data from each image into R.
+
 Step 5. Generate a plot in R that displays the fluorescence intensity data from each of the images.\n
     
     
