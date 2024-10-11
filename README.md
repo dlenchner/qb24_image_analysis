@@ -1,43 +1,41 @@
-# qb24_image_analysis
 
 
-# Title #
-
-Developing code that can quantify, report, and compare fluorescence intensity across samples
+# Comparative Analysis of Fluorescence Intensity - An Exploration into Quantitative Microscopy #
 
 
 
-# Description #
+## Description ##
 
-In an effort to better understand how image analysis software functions under the hood, we plan to work from the ground up to develop code that can automate quantification of fluorescent images and report the average fluorescent intensity in a given region of interest. The ultimate goal is to apply the code to multiple images and compare average fluorescence intensity across samples or across time points. 
-
-
-# Published figure example #
-
-The following figure demonstrates a FRAP analysis, which is one of many techniques that involve quantifying fluorescence intensity in an image. Depending on the images we are able to obtain, recapitulating a FRAP analysis like the one pictured below is one potential avenue that our project can take.
+In an effort to better understand how image analysis software functions under the hood, we plan to work from the ground up to develop code that can automate quantification of fluorescent images and report the average fluorescence intensity in a given region of interest. The ultimate goal is to apply the code to multiple images and compare average fluorescence intensity across samples or across time points. 
 
 
-![alt text](https://ars.els-cdn.com/content/image/1-s2.0-S1046202302002888-gr2.jpg)
+## Example of a published figure ##
 
-Paper: [Using FRAP and mathematical modeling to determine the in vivo kinetics of nuclear proteins](https://www.sciencedirect.com/science/article/pii/S1046202302002888?via%3Dihub#FIG1)
-
-Reference: Carrero G, McDonald D, Crawford E, de Vries G, Hendzel MJ. Using FRAP and mathematical modeling to determine the in vivo kinetics of nuclear proteins. Methods. 2003 Jan;29(1):14-28. doi: 10.1016/s1046-2023(02)00288-8. PMID: 12543068.
+The following figure demonstrates a FRAP analysis, where a region of interest in a cell is photobleached and monitored over time to track the recovery of the fluorescent signal in that region. This is just one of many experiment types that involve quantifying fluorescence intensity in a given area. Depending on the images we are able to obtain from public repositories, recapitulating a FRAP analysis (like the one pictured below) is one trajectory our project could take.
 
 
-# Datasets #
 
-For most of our process, we plan to use local fluorescent images that we already have from our personal research experiences. Once we develop our code and are able to show that it works, we hope to apply our code to a larger set of publicly available images that can be used to compare fluorescence intensity over time (such as in a FRAP analysis) or compare fluorescence intensity between treatment groups.
+![Sample FRAP analysis](https://ars.els-cdn.com/content/image/1-s2.0-S1046202302002888-gr2.jpg)
+Fig. 2. Example of a FRAP recovery curve. The cell from Fig. 1 is again illustrated. Images collected at different points in the recovery time course are shown. The right-hand panel shows the normalized plot of intensity-versus-time for the cell shown.
+
+Paper: Carrero G, McDonald D, Crawford E, de Vries G, Hendzel MJ. [Using FRAP and mathematical modeling to determine the in vivo kinetics of nuclear proteins](https://www.sciencedirect.com/science/article/pii/S1046202302002888?via%3Dihub#FIG1) Methods. 2003 Jan;29(1):14-28. doi: 10.1016/s1046-2023(02)00288-8. PMID: 12543068.
+
+
+
+## Datasets ##
+
+The bulk of our project will be done on local fluorescent image files that we already have access to from our personal research experience. Once we develop our code and can demonstrate its function, we hope to apply it to a larger set of publicly available image files that can be used to compare fluorescence intensity over time (such as in a FRAP analysis) or compare fluorescence intensity between different treatment groups.
 
 Some possible research areas/topics/systems to keep in mind when looking for image sets:
-    FRAP analysis
-    Live cell imaging of fluorescent gene expression reporters
-    Analysis of PacBIO or Illumina sequencing reads that generate fluorescent signals during nucleotide incorporation
+- FRAP analysis
+- Live cell imaging of fluorescent gene expression reporters
+- Analysis of PacBIO or Illumina sequencing reads that generate fluorescent signals during nucleotide incorporation
 
 One potential source we can use to find publicly available image sets is the [Image Data Resource](http://idr.openmicroscopy.org) 
 
 
 
-# Software and versions #
+## Software ##
 
 [Python](https://www.python.org) v3.12.3 - Quantify and report fluorescence intensity
 
@@ -48,16 +46,12 @@ One potential source we can use to find publicly available image sets is the [Im
 [ImageJ](https://imagej.net/ij/index.html) v1.54k - Run analyses to serve as comparisons for the results generated from our code
 
 
-# Proposed steps #
+## Proposed steps ##
 
-Step 1.     Read an individual image file into Python, quantify fluorescent intensity at each pixel, and report that fluorescent intensity.
-
-Step 2.     Build on the work in step 1 by developing code that can isolate a region of interest, subtract background intensity, and report the average fluorescent intensity just in that region.
-
-Step 3.     Modify the code to analyze two or more images at a time.
-
-Step 4.     Read the fluorescence intensity data from each image into R.
-
-Step 5.     Generate a plot in R that displays the fluorescence intensity data from each of the images.
+1. Read an individual image file into Python, quantify fluorescence intensity at each pixel, and report that fluorescence intensity.
+2. Build on the work in step 1 by developing code that can isolate a region of interest, subtract background intensity, and report the average fluorescence intensity just in that region.
+3. Modify the code to analyze two or more images at a time.
+4. Read the fluorescence intensity data from each image into R.
+5. Generate a plot in R that displays the fluorescence intensity data from each of the images.
     
     
