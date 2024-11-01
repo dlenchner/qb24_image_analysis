@@ -55,3 +55,18 @@ One potential source we can use to find publicly available image sets is the [Im
 5. Generate a plot in R that displays the fluorescence intensity data from each of the images.
     
     
+## Project Organization ##
+.
+├── README.md
+├── data
+│   ├── A1_c2.jpg
+│   ├── FluorescentCells.jpg
+│   └── GMC101_miR71KO-40x_DAPI.jpg
+├── doc
+│   └── checkin-2024_11_01.md
+├── requirements.txt
+├── results
+└── src
+    ├── Project.py
+    ├── test.py
+    └── test2.py
