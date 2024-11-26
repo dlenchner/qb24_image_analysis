@@ -56,9 +56,10 @@ One potential source we can use to find publicly available image sets is the [Im
     
     
 ## Project Organization ##
-    .
+
     ├── README.md
     ├── data
+    │   ├── 962_F1_1_blue.png
     │   ├── A1_c2.jpg
     │   ├── FluorescentCells.jpg
     │   └── GMC101_miR71KO-40x_DAPI.jpg
@@ -67,6 +68,10 @@ One potential source we can use to find publicly available image sets is the [Im
     ├── requirements.txt
     ├── results
     └── src
-        ├── Project.py
-        ├── test.py
-        └── test2.py
+        ├── initial_test_code
+        │   ├── Project.py
+        │   ├── image_read_program_notebook.ipynb
+        │   ├── test.py
+        │   ├── test2.py
+        │   └── test3.py
+        └── single_image_analysis.py
