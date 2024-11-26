@@ -1,0 +1,12 @@
+
+Required packages:
+    numpy
+    matplotlib.pyplot
+    imageio.v2
+    skimage
+        measure
+            regionprops
+            label
+    glob
+    os
+
