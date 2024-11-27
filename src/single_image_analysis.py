@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 
-# import sys
 import numpy
 import matplotlib.pyplot as plt
 import imageio.v2 as imageio
-# import cv2
 import skimage as ski
 from skimage.measure import regionprops, label
 
