@@ -64,14 +64,21 @@ One potential source we can use to find publicly available image sets is the [Im
     │   ├── FluorescentCells.jpg
     │   └── GMC101_miR71KO-40x_DAPI.jpg
     ├── doc
-    │   └── checkin-2024_11_01.md
+    │   ├── checkin-2024_11_01.md
+    │   └── checkin-2024_11_22.md
     ├── requirements.txt
     ├── results
+    │   ├── image_1_962_F1_1_blue.png_annotated.png
+    │   ├── image_2_A1_c2.jpg_annotated.png
+    │   ├── image_3_FluorescentCells.jpg_annotated.png
+    │   ├── image_4_GMC101_miR71KO-40x_DAPI.jpg_annotated.png
+    │   ├── image_data.tsv
+    │   └── image_metadata.tsv
     └── src
         ├── initial_test_code
-        │   ├── Project.py
-        │   ├── image_read_program_notebook.ipynb
-        │   ├── test.py
-        │   ├── test2.py
-        │   └── test3.py
+        │   ├── test1_pixel_intensity_single_image.py
+        │   ├── test2_alt_avg_intensity_single_image.py
+        │   ├── test2_avg_intensity_single_image.py
+        │   └── test3_thresholding_masking_single_image.ipynb
+        ├── multi_image_analysis.py
         └── single_image_analysis.py
