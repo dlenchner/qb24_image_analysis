@@ -15,9 +15,9 @@
 
 ## Running multi image analysis ##
 
-1. Within the /src/ directory in Terminal, ensure the program is executable by running the following command:
+- Within the /src/ directory in Terminal, ensure the program is executable by running the following command:
   - chmod +x multi_image_analysis.py
-2. Once the program is executable, run the program by providing the following command:
+- Once the program is executable, run the program by providing the following command:
   - ./multi_image_analysis.py
 
 ## Expected results ##
