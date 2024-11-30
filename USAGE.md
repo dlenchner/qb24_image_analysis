@@ -3,7 +3,7 @@
 
 ## Setting up the repository ##
 
-- Generate a repository with the following layout:
+### Create a repository with the following layout ###
 
     ├── data
     │   ├── image_of_interest_001
@@ -16,20 +16,20 @@
 ## Running multi image analysis ##
 
 1. Within the /src/ directory in Terminal, ensure the program is executable by running the following command:
- - chmod +x multi_image_analysis.py
+  - chmod +x multi_image_analysis.py
 2. Once the program is executable, run the program by providing the following command:
- - ./multi_image_analysis.py
+  - ./multi_image_analysis.py
 
 ## Expected results ##
 
 - The program will enter the /data/ directory to run the analysis on each of the dowloaded image files
 - Report files (tsv format) and labeled images (png format) will be output to the /results/ directory with the following naming convention:
- - image_data.tsv
- - image_metadata.tsv
- - image_{#}_{filename}_annotated.png
+  - image_data.tsv
+  - image_metadata.tsv
+  - image_{#}_{filename}_annotated.png
 
 
-- The final repository should look something like this:
+### The final repository should look something like this ###
 
     ├── data
     │   ├── image_of_interest_001
