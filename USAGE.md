@@ -4,6 +4,7 @@
 ## Setting up the repository ##
 
 - Generate a repository with the following layout:
+
     ├── data
     │   ├── image_of_interest_001
     │   ├── image_of_interest_002
@@ -26,9 +27,10 @@
  - image_data.tsv
  - image_metadata.tsv
  - image_{#}_{filename}_annotated.png
- - ...
+
 
 - The final repository should look something like this:
+
     ├── data
     │   ├── image_of_interest_001
     │   ├── image_of_interest_002
