@@ -14,7 +14,7 @@ data_directory = '../data/'
 results_directory = '../results/'
 
 # generate a sorted list of file names frmo the working directory
-filenames = glob.glob(f'{data_directory}*')
+filenames = glob.glob(f'{data_directory}*.tif')
 filenames = sorted([os.path.basename(file) for file in filenames])
 
 

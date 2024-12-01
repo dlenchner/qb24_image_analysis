@@ -9,7 +9,8 @@ from skimage.measure import regionprops, label
 # Establish the filepath and the filename
 filepath = "~/qb24_image_analysis/data/"
 # filename = "962_F1_1_blue.png"
-filename = "FluorescentCells.jpg"
+# filename = "FluorescentCells.jpg"
+filename = "Week10_200907_G11_s4_w1C97E64C3-00B1-4693-AE49-A8708F25B55F.tif"
 
 # Read in the image file
 img = imageio.imread(uri = filepath + filename)
