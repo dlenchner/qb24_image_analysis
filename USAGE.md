@@ -74,6 +74,9 @@
     - multi_image_analysis_plotting.R
   - The final plots (saved as png files in the /results/ directory) are organized to display average nuclear fluorescent intensity in the MCF-7 cell line following the indicated doses of the indicated treatment
 
+
+#### NOTE: The images can be retrieved as described above our by following the instructions described in the image_retrieval.md file in the /data/ directory ####
+
 ### The final result is a directory structured as follows (this is not a complete picture of our directory, but highlights the data and results generated from the example described above) ###
 
     ├── USAGE.md
