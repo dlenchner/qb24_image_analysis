@@ -120,6 +120,7 @@ One potential source we can use to find publicly available image sets is the [Im
     │   ├── Week10_200907_G09_s4_w14DF3FB85-B19D-4B4F-8769-A0F9C89C6F22.tif
     │   ├── Week10_200907_G10_s4_w16787DC48-B706-4182-BA69-02E42913A12A.tif
     │   ├── Week10_200907_G11_s4_w1C97E64C3-00B1-4693-AE49-A8708F25B55F.tif
+    │   ├── image_retrieval.md
     │   └── initial_test_data
     │       ├── 962_F1_1_blue.png
     │       ├── A1_c2.jpg
@@ -136,6 +137,7 @@ One potential source we can use to find publicly available image sets is the [Im
     │   ├── MCF7_Monastrol_plot.png
     │   ├── MCF7_TKK_plot.png
     │   ├── MCF7_Temozolomide_plot.png
+    │   ├── annotated_image_retrieval.md
     │   ├── image_10_Week10_200907_B11_s4_w14222240C-811F-436D-B8A5-22A1C4749191.tif_annotated.png
     │   ├── image_11_Week10_200907_C02_s4_w13F830D82-B5CE-4F35-8104-40D5773B2772.tif_annotated.png
     │   ├── image_12_Week10_200907_C03_s4_w1EFE40D10-5278-4F09-8E89-CCDBFCB8D25E.tif_annotated.png
