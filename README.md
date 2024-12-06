@@ -36,9 +36,9 @@ Some possible research areas/topics/systems to keep in mind when looking for ima
 One potential source we can use to find publicly available image sets is the [Image Data Resource](http://idr.openmicroscopy.org) 
 
 
-#### NOTE: ####
-#### See the USAGE.md file for details about the image set used for our proof of concept ####
-#### See the image_retrieval.md file for information on how to acquire the image set we used for our proof of concept ####
+### NOTE: ###
+- See the USAGE.md file for details about the image set used for our proof of concept ####
+- See the image_retrieval.md file for information on how to acquire the image set we used for our proof of concept ####
 
 
 
