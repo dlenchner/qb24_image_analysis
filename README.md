@@ -3,6 +3,8 @@
 # Comparative Analysis of Fluorescence Intensity - An Exploration into Quantitative Microscopy #
 
 
+The final presentation for this project can be viewed [here](https://docs.google.com/presentation/d/1TWOr0OYpdGLmi3ymKDzFBMR0HWqh9NBstzVpAkOugoM/edit?usp=sharing)
+
 
 ## Description ##
 
@@ -34,25 +36,33 @@ Some possible research areas/topics/systems to keep in mind when looking for ima
 One potential source we can use to find publicly available image sets is the [Image Data Resource](http://idr.openmicroscopy.org) 
 
 
+#### NOTE: ####
+#### See the USAGE.md file for details about the image set used for our proof of concept ####
+#### See the image_retrieval.md file for information on how to acquire the image set we used for our proof of concept ####
+
+
+
+
 
 ## Software ##
 
 [Python](https://www.python.org) v3.12.3 - Quantify and report fluorescence intensity
 
+- See the requirements.txt file for specific packages needed in python.
+
 [R](https://www.r-project.org) v4.4.1 - Plot the fluorescence data generated in Python
 
+- The R script used is adaptable based on the particular study of interest. For our proof of concept, we utilized Tidyverse.
 
-
-[ImageJ](https://imagej.net/ij/index.html) v1.54k - Run analyses to serve as comparisons for the results generated from our code
 
 
 ## Proposed steps ##
 
-1. Read an individual image file into Python, quantify fluorescence intensity at each pixel, and report that fluorescence intensity.
-2. Build on the work in step 1 by developing code that can isolate a region of interest, subtract background intensity, and report the average fluorescence intensity just in that region.
-3. Modify the code to analyze two or more images at a time.
-4. Read the fluorescence intensity data from each image into R.
-5. Generate a plot in R that displays the fluorescence intensity data from each of the images.
+- [x] Read an individual image file into Python, quantify fluorescence intensity at each pixel, and report that fluorescence intensity.
+- [x] Build on the work in step 1 by developing code that can isolate a region of interest, subtract background intensity, and report the average fluorescence intensity just in that region.
+- [x] Modify the code to analyze two or more images at a time.
+- [x] Read the fluorescence intensity data from each image into R.
+- [x] Generate a plot in R that displays the fluorescence intensity data from each of the images.
     
     
 ## Project Organization ##
@@ -124,8 +134,16 @@ One potential source we can use to find publicly available image sets is the [Im
     │   └── initial_test_data
     │       ├── 962_F1_1_blue.png
     │       ├── A1_c2.jpg
+    │       ├── APEX1_field0_DAPI.tif
+    │       ├── APEX1_field1_DAPI.tif
     │       ├── FluorescentCells.jpg
-    │       └── GMC101_miR71KO-40x_DAPI.jpg
+    │       ├── GMC101_miR71KO-40x_DAPI.jpg
+    │       ├── PIM2_field0_DAPI.tif
+    │       ├── PIM2_field1_DAPI.tif
+    │       ├── POLR2B_field0_DAPI.tif
+    │       ├── POLR2B_field1_DAPI.tif
+    │       ├── SRSF1_field0_DAPI.tif
+    │       └── SRSF1_field1_DAPI.tif
     ├── doc
     │   ├── checkin-2024_11_01.md
     │   └── checkin-2024_11_22.md
@@ -199,7 +217,18 @@ One potential source we can use to find publicly available image sets is the [Im
     │   ├── image_8_Week10_200907_B09_s4_w17414221F-2154-4685-AB36-D6270E11832B.tif_annotated.png
     │   ├── image_9_Week10_200907_B10_s4_w1DABEE4FC-FF53-48AF-B6A7-B19EB9EBABDE.tif_annotated.png
     │   ├── image_data.tsv
-    │   └── image_metadata.tsv
+    │   ├── image_metadata.tsv
+    │   └── initial_test_results
+    │       ├── image_1_APEX1_field0_DAPI.tif_annotated.png
+    │       ├── image_2_APEX1_field1_DAPI.tif_annotated.png
+    │       ├── image_3_PIM2_field0_DAPI.tif_annotated.png
+    │       ├── image_4_PIM2_field1_DAPI.tif_annotated.png
+    │       ├── image_5_POLR2B_field0_DAPI.tif_annotated.png
+    │       ├── image_6_POLR2B_field1_DAPI.tif_annotated.png
+    │       ├── image_7_SRSF1_field0_DAPI.tif_annotated.png
+    │       ├── image_8_SRSF1_field1_DAPI.tif_annotated.png
+    │       ├── image_data_test.tsv
+    │       └── image_metadata_test.tsv
     └── src
         ├── initial_test_code
         │   ├── test1_pixel_intensity_single_image.py
@@ -209,3 +238,4 @@ One potential source we can use to find publicly available image sets is the [Im
         ├── multi_image_analysis.py
         ├── multi_image_analysis_plotting.R
         └── single_image_analysis.py
+
