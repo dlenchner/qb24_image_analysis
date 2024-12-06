@@ -1,0 +1,9 @@
+image	filename	size	dimensions	convert?
+1	APEX1_field0_DAPI.tif	520 x 616	2	n
+2	APEX1_field1_DAPI.tif	520 x 616	2	n
+3	PIM2_field0_DAPI.tif	520 x 616	2	n
+4	PIM2_field1_DAPI.tif	520 x 616	2	n
+5	POLR2B_field0_DAPI.tif	520 x 616	2	n
+6	POLR2B_field1_DAPI.tif	520 x 616	2	n
+7	SRSF1_field0_DAPI.tif	520 x 616	2	n
+8	SRSF1_field1_DAPI.tif	520 x 616	2	n
